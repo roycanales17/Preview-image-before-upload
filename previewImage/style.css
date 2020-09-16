@@ -1,0 +1,58 @@
+.container{
+	text-align: center;
+}
+.btn{
+	font-weight: bold;
+}
+.preview-image{
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	width: 100%;
+	height: 180px;
+	padding-top: 10px;
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+}
+.image-view{
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	width: 100%;
+	height: 180px;
+	padding-top: 10px;
+}
+.image img{
+	margin:3px;
+	width: 110px;
+	height: 110px;
+	object-fit: cover;
+	flex: 0 0 auto;
+	margin-right: 5px;
+	padding-bottom: 3px;
+}
+.image > .btn{
+	width: 110px;
+}
+.btn-info{
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+.btn-primary{
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+.col{
+	width: 150px;
+	height: 110px;
+}
+.col img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+#fileImage{
+	display: none;
+}
